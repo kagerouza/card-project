@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "../Assets/stylesRemove.css";
 import { reducer, initialState } from "../Store/Reducer";
-import reasons from "../Constants"
+import {reasons} from "../Constants"
 
 const RemoveCustomer = () => {
   const { cardNumber } = useParams();

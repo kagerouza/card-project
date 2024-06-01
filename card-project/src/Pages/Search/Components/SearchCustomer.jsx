@@ -6,7 +6,7 @@ import customerList from "../../../MockData/CustomerList.json";
 import transactionList from "../../../MockData/TransactionList.json";
 import SearchBar from "../Blocks/SearchBar";
 import { filterCustomers } from "../Utils/Helpers";
-import initialState from '../Constants'
+import {initialState} from '../Constants'
 
 const SearchCustomer = () => {
   const [state, setState] = useState(initialState);

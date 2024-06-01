@@ -1,0 +1,66 @@
+.remove__container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remove__container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #5c2992;
+}
+
+.remove__container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #5c2992;
+}
+
+.remove__container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #5c2992;
+}
+
+.remove__container select,
+.remove__container input[type="text"],
+.remove__container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.remove__card-number-container {
+  display: flex;
+  align-items: center;
+}
+
+.remove__card-number-container p {
+  margin-right: 10px;
+}
+
+.remove__container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #5c2992;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px 0;
+}
+
+.remove__container button:hover {
+  background-color: #472071;
+}

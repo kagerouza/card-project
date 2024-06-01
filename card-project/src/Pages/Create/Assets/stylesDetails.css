@@ -1,0 +1,61 @@
+.details__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40rem
+  }
+  
+  .details__title {
+    font-size: 1.5rem;
+    color: #5C2992;
+  }
+  
+  .details__customer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details__no-data {
+    color: #dc3545;
+    font-style: italic;
+  }
+  
+  .details__card-container {
+    width: 300px;
+    height: 180px;
+    background-image: url('https://www.azercell.com/theme/images/new-card.png');
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .details__card-number {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  
+  .details__container button {
+    margin-top: 20px;
+    background-color: #5C2992;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details__container button:hover {
+    background-color: #472071;
+  }
+  
+  .details__success-message{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #472071;
+  }
+  

@@ -1,0 +1,44 @@
+.audit__container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.audit__container h1 {
+  font-size: 24px;
+  color: #5C2992;
+  text-align: center;
+}
+
+.audit__table-container {
+  margin-bottom: 20px;
+}
+
+.audit__table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.audit__table-container th, .audit__table-container td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.audit__table-container th {
+  background-color: #5C2992;
+  color: white;
+}
+
+.audit__table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.audit__table-container tr:hover {
+  background-color: #5C2992;
+  color: white;
+}
+
+.audit__table-container td {
+  text-align: center;
+  padding: 8px;
+}
